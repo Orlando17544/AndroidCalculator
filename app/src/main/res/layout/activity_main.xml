@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#000000">
+
+        <TextView
+            android:id="@+id/textField"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="0"
+            android:textSize="50sp"
+            android:textColor="#FFFFFF"
+            android:gravity="right|bottom"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:stretchColumns="0,1,2,3">
+                <TableRow
+                    android:layout_weight="1">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/cancelButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:backgroundTint="@color/format"
+                            android:text="C"
+                            android:textColor="@color/blackText" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/changeSignButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:backgroundTint="@color/format"
+                            android:text="+/-"
+                            android:textColor="@color/blackText" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/percentageButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:backgroundTint="@color/format"
+                            android:text="%"
+                            android:textColor="@color/blackText" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/divisiónButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:backgroundTint="@color/operations"
+                            android:text="/"
+                            android:textColor="@color/whiteText" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1">
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/sevenButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="7"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/numbers"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/eightButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="8"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/numbers"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/nineButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="9"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/numbers"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/multiplicationButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="x"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/operations"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1">
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/fourButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="4"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/numbers"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/fiveButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="5"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/numbers"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/sixButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="6"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/numbers"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/substractionButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="-"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/operations"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1">
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/oneButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="1"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/numbers"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/twoButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="2"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/numbers"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/threeButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="3"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/numbers"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/additionButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="+"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/operations"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1">
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/zeroButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="0"
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/numbers"
+                            android:layout_span="2" />
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/dotButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="."
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/numbers"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/equalButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="="
+                            android:textColor="@color/whiteText"
+                            android:backgroundTint="@color/operations"/>
+                </TableRow>
+
+        </TableLayout>
+</LinearLayout>
+
