@@ -10,7 +10,7 @@
     android:background="#000000">
 
         <TextView
-            android:id="@+id/textField"
+            android:id="@+id/calculatorText"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="5"
@@ -55,7 +55,7 @@
                             android:textColor="@color/blackText" />
 
                         <com.google.android.material.button.MaterialButton
-                            android:id="@+id/divisiónButton"
+                            android:id="@+id/divisionButton"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
